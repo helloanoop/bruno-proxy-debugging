@@ -1,4 +1,4 @@
-const endpoint = 'https://testbench-sanity.usebruno.com/ping';
+const endpoint = 'https://httpbin.org/get';
 const axios = require('axios');
 
 async function ping() {
